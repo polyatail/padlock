@@ -28,6 +28,12 @@ You can also use the `--watch` flag to tell the gulp task to watch all `.styl` f
 
     gulp stylus --watch
 
+## Compiling for Chrome
+
+Was necessary to edit `./bower_components/papaparse/papaparse.js` with `var global = window;` on line 29 to pass checks.
+
+Used `polybuild` to get rid of inline scripts to pass checks.
+
 ## Linting
 
 Any pull request need to pass our linting rules, which are defined in the `.eslintrc.json` file. To lint all files, run
