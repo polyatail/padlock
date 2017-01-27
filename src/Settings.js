@@ -27,9 +27,9 @@ padlock.Settings = (function(util, LocalSource) {
         properties: {
             "auto_lock": true,
             // Auto lock delay in minutes
-            "auto_lock_delay": 1,
-            "sync_host_url": "https://cloud.padlock.io",
-            "sync_custom_host": false,
+            "auto_lock_delay": 5,
+            "sync_host_url": "https://jolteon.nixt.org",
+            "sync_custom_host": true,
             "sync_email": "",
             "sync_key": "",
             "sync_device": "",

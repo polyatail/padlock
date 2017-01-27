@@ -30,9 +30,8 @@
                         // "sync_require_subscription": true
                     }),
                     collection = new padlock.Collection("default", store),
-                    announcements = new padlock.Announcements("https://padlock.io/announcements.json", store);
 
-                var app = new padlock.App(collection, settings, announcements);
+                var app = new padlock.App(collection, settings, NULL);
                 document.body.appendChild(app);
             });
         </script>

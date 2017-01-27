@@ -46,10 +46,10 @@
             this.fire("export");
         },
         _openWebsite: function() {
-            window.open("https://padlock.io", "_system");
+            window.open("https://jolteon.nixt.org", "_system");
         },
         _sendMail: function() {
-            var url = "mailto:support@padlock.io";
+            var url = "mailto:jolteon@nixt.org";
             window.open(url, "_system");
         },
         _openGithub: function() {

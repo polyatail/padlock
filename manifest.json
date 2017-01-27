@@ -13,7 +13,7 @@
         "storage",
         "clipboardWrite",
         "clipboardRead",
-        "*://cloud.padlock.io/*"
+        "https://jolteon.nixt.org/*"
     ],
     "icons": {
         "16": "assets/icon16.png",

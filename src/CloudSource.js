@@ -45,7 +45,7 @@ padlock.CloudSource = (function(Source) {
 
     CloudSource.prototype.prepareRequest = function(method, path, cb) {
         var req = new XMLHttpRequest();
-        var host = this.settings.sync_custom_host ? this.settings.sync_host_url : "https://cloud.padlock.io";
+        var host = this.settings.sync_custom_host ? this.settings.sync_host_url : "https://jolteon.nixt.org";
         // Remove any trailing slashes
         host = host.replace(/\/+$/, "");
         var url = host + path;
